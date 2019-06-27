@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="./RadioStyle.css"
+</head>
+<body>
+
+  
+
+  <section class="lazy slider" data-sizes="50vw">
+    <div id="page1" class="page"> <h1>Dubstep</h1> 
+      <audio id="dubstep" src="http://listen.uturnradio.com:80/dubstep" preload label></audio>
+      <div class="myButton"><div class="inp" type="submit" name="PlayPause" onclick="playRadio(dubstep);"></div></div>
+    </div>
+    <div id="page2" class="page"> <h1>Drum'n'Bass</h1> 
+      <audio id="drum" src="http://listen.uturnradio.com:80/drum_and_bass" preload label></audio>
+      <div class="myButton"><div class="inp" type="submit" name="PlayPause" value="" onclick="playRadio(drum);"></div></div>
+    </div>
+    <div id="page3" class="page"> <h1>Electro House</h1> 
+      <audio id="electro" src="http://listen.uturnradio.com:80/electro_house" preload label></audio>
+      <div class="myButton"><div class="inp" type="submit" name="PlayPause" value="" onclick="playRadio(electro);"></div></div>
+    </div>
+    <div id="page4" class="page"> <h1>Classic Rock</h1>
+      <audio id="rock" src="http://listen.uturnradio.com:80/classic_rock" preload label></audio>
+      <div class="myButton"><div class="inp" type="submit" name="PlayPause" value="" onclick="playRadio(rock);"></div></div>
+    </div>
+    
+  </section>
+  <script src="PlayPause.js" type="text/javascript" ></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="touch.js" type="text/javascript"></script>
+ 
+</body>
+</html>
