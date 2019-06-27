@@ -1,4 +1,4 @@
-package com.example.uturnradio;
+package com.etsoftapp.uturnradio;
 
 import androidx.appcompat.app.AppCompatActivity;
 
