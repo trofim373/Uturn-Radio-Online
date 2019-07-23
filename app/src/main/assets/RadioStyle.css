@@ -9,45 +9,45 @@ html, body {
     }
     
     @font-face {
-		font-family: f1; 
-		src: url(./fonts/Dirty_Princess.otf); 
+    font-family: f1; 
+    src: url(./fonts/Dirty_Princess.otf); 
     }
 
     @font-face {
-		font-family: f3; 
-		src: url(fonts/Neon_Vampire.ttf); 
+    font-family: f3; 
+    src: url(fonts/Neon_Vampire.ttf); 
     }
     @font-face {
-		font-family: f4; 
-		src: url(fonts/Smooth_Circulars.otf); 
+    font-family: f4; 
+    src: url(fonts/Smooth_Circulars.otf); 
     }
     @font-face {
-		font-family: f5; 
-		src: url(fonts/Synthetic_Sharps.otf); 
+    font-family: f5; 
+    src: url(fonts/Synthetic_Sharps.otf); 
     }
     @font-face {
-		font-family: f6; 
-		src: url(fonts/Techno_at_Dusk.otf); 
+    font-family: f6; 
+    src: url(fonts/Techno_at_Dusk.otf); 
     }
     @font-face {
-		font-family: f7; 
-		src: url(fonts/Technonomicon.ttf); 
+    font-family: f7; 
+    src: url(fonts/Technonomicon.ttf); 
     }
     @font-face {
-		font-family: f8; 
-		src: url(fonts/Vermin_Vibes_2_Nightclub.otf); 
+    font-family: f8; 
+    src: url(fonts/Vermin_Vibes_2_Nightclub.otf); 
     }
     @font-face {
-		font-family: f9; 
-		src: url(fonts/Vermin_Vibes_4.otf); 
+    font-family: f9; 
+    src: url(fonts/Vermin_Vibes_4.otf); 
     }
     @font-face {
-		font-family: f10; 
-		src: url(fonts/Vermin_Vibes_Redux.ttf); 
+    font-family: f10; 
+    src: url(fonts/Vermin_Vibes_Redux.ttf); 
     }
     @font-face {
-		font-family: f11; 
-		src: url(fonts/Vermin_Vibes.ttf); 
+    font-family: f11; 
+    src: url(fonts/Vermin_Vibes.ttf); 
     }
     
 
@@ -81,28 +81,30 @@ html, body {
 
 
     .myButton{
-	   display: table;
+   display: flex;
+   align-items: center;
+     justify-content: center;
      position:relative;
      top:-180px;
      height:100%;
-	   width:100%;
+     width:100%;
      text-align:center;
      vertical-align: bottom;
     }
     .myButton .inp {
 
-		background:transparent url(./img/PlayPause.png) no-repeat;
-		background-position:center;
+    background:transparent url(./img/PlayPause.png) no-repeat;
+    background-position:center;
 
-		outline: none;
-		cursor:pointer;
+    outline: none;
+    cursor:pointer;
 
-		width:250px;
-		height: 250px;
-		background-size: 180px;
-		border: none;
+    width:250px;
+    height: 250px;
+    background-size: 180px;
+    border: none;
 
-  	display:  table-cell;
+    display:  table-cell;
     vertical-align: middle;
     }
 
@@ -123,24 +125,24 @@ html, body {
     }
     
     .page h1{
-    	line-height:70px;
-    	height:90px;
-    	margin:70px 0px 20px;
-    	vertical-align:center;
+      line-height:70px;
+      height:90px;
+      margin:70px 0px 20px;
+      vertical-align:center;
 
-		top:0px;
-    	position:relative;
-    	transition: top 1s;
+    top:0px;
+      position:relative;
+      transition: top 1s;
     }
 @media all and (max-height: 620px) {
-	.page h1{
-		top:-20px;
-	}
+  .page h1{
+    top:-20px;
+  }
 }
 @media all and (max-height: 520px) {
-	.page h1{
-		top:-50px;
-	}
+  .page h1{
+    top:-50px;
+  }
 }
 
 
@@ -150,8 +152,8 @@ html, body {
       background-image: url(./img/dubstep.jpg);
     }
     #page1 h1{
-    	font-family: f3, sans-serif;
-    	font-size: 65px;
+      font-family: f3, sans-serif;
+      font-size: 65px;
     }
 
 
@@ -160,8 +162,8 @@ html, body {
       background-image: url(./img/drum.jpg);
     }
     #page2 h1{
-    	font-family: f4, sans-serif;
-    	font-size:35px;
+      font-family: f4, sans-serif;
+      font-size:35px;
     }
 
 
@@ -169,8 +171,8 @@ html, body {
       background-image: url(./img/electro.jpg);
     }
     #page3 h1{
-    	font-family: f7, sans-serif;
-    	font-size: 24px;
+      font-family: f7, sans-serif;
+      font-size: 24px;
     }
 
 
@@ -178,8 +180,8 @@ html, body {
       background-image: url(./img/rock.jpg);
     }
     #page4 h1{
-    	font-family: f5, sans-serif;
-    	font-size: 80px;
+      font-family: f5, sans-serif;
+      font-size: 80px;
     }
 
 
@@ -202,10 +204,10 @@ html, body {
     
     }
 .slick-prev{
-	left:8px;
+  left:8px;
 }    
 .slick-next{
-	right:8px;
+  right:8px;
 }
 
 

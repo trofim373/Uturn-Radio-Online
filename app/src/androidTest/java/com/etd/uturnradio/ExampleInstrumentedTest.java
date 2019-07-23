@@ -1,4 +1,4 @@
-package com.etsoftapp.uturnradio;
+package com.etd.uturnradio;
 
 import android.content.Context;
 
